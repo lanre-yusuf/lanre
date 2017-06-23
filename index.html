@@ -25,7 +25,7 @@ background-color:#214ad2;
 <tr>
 <td colspan=5><input id="btn"name="display" onkeypress="return event.charCode >= 48 && event.charCode <= 57"type="text"><br>
 </td>
-<td style="display:none"><input name="M" type="number"></td>
+<td style="display:none"><input name="" type="number"></td>
 </tr>
 
 
@@ -35,7 +35,7 @@ background-color:#214ad2;
 <td> <input id="btn" type="button" name="MR" value="MR"OnClick="calc.M.value=calc.display.value"><br></td>
 <td> <input id="btn" type="button" name="MS" value="MS"OnClick="calc.display.value=calc.M.value"><br></td>
 <td> <input id="btn"type="button" name="M+" value="M+"OnClick="calc.M.value=(Number(calc.M.value))+(Number(calc.display.value))"><br></td>
-<td> <input id="btn" type="button" name="M-" value="M-""OnClick="calc.M.value=(Number(calc.M.value))-(Number(calc.display.value))"><br></td>
+<td> <input id="btn" type="button" name="M-" value="M-"OnClick="calc.M.value=(Number(calc.M.value))-(Number(calc.display.value))"><br></td>
 
 
 <tr>
@@ -58,7 +58,7 @@ background-color:#214ad2;
 
 
 <tr>
-<td> <input id="btn"type="button" name="4" value="4"OnClick="calc.display.value+='4'"><br></td>
+<td> <input id="btn"type="button" name="4" value="4"OnClick="calc.display.value+='4'"></td>
 <td> <input id="btn"type="button" name="5" value="5"OnClick="calc.display.value+='5'"><br></td>
 <td> <input id="btn"type="button" name="6" value="6"OnClick="calc.display.value+='6'"><br></td>
 <td> <input id="btn"type="button" name="*" value="*"OnClick="calc.display.value+='*'"><br></td>
@@ -85,6 +85,10 @@ background-color:#214ad2;
 
 
 </table>
+
+<label id= "M">
+
+</label>
 </form>
 </body>
 </head>
