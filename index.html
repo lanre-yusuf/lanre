@@ -1,21 +1,21 @@
 <!DOCTYPE html>
 <html>
 	<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.4/angular.min.js"></script>
-	<script src="lanre.js"></script>
+	<script src="calculator.js"></script>
 <head>
 <style> 
-		#wemzy{
+		#calcu{
 
 		background-color:#214ad2;
 		}
 		#calc{width:200px;height:100px;}
 		#btn{width:100%;height:40px;font-size:10px;}
-		body {background-image:url(philipmyguy.jpg)}
+		body {background-image:url(calculatorbackground.jpg)}
 </style>
 
 	<link rel="stylesheet" type="text/css" href="index.css">
 	<title>CALCULATOR</title>
-<body id="wemzy">
+<body id="calcu">
     
 <h3>SIMPLE CALCULATOR</h3>
 
@@ -43,39 +43,39 @@
 
 
 <tr>
-<td> <input id="btn"type="button" name="7" value="7"ng-click="lol('7')"><br></td>
-<td> <input id="btn"type="button" name="8" value="8"ng-click="lol('8')"><br></td>
-<td> <input id="btn"type="button" name="9" value="9"ng-click="lol('9')"><br></td>
-<td> <input id="btn"type="button" name="/" value="/"ng-click="lol('/')"><br></td>
-<td> <input id="btn"type="button" name="%" value="%"ng-click="lol('%')"><br></td>
+<td> <input id="btn"type="button" name="7" value="7"ng-click="onkey('7')"><br></td>
+<td> <input id="btn"type="button" name="8" value="8"ng-click="onkey('8')"><br></td>
+<td> <input id="btn"type="button" name="9" value="9"ng-click="onkey('9')"><br></td>
+<td> <input id="btn"type="button" name="/" value="/"ng-click="onkey('/')"><br></td>
+<td> <input id="btn"type="button" name="%" value="%"ng-click="onkey('%')"><br></td>
 </tr>
 
 
 
 <tr>
-<td> <input id="btn"type="button" name="4" value="4"ng-click="lol('4')"><br></td>
-<td> <input id="btn"type="button" name="5" value="5"ng-click="lol('5')"><br></td>
-<td> <input id="btn"type="button" name="6" value="6"ng-click="lol('6')"><br></td>
-<td> <input id="btn"type="button" name="*" value="*"ng-click="lol('*')"><br></td>
+<td> <input id="btn"type="button" name="4" value="4"ng-click="onkey('4')"><br></td>
+<td> <input id="btn"type="button" name="5" value="5"ng-click="onkey('5')"><br></td>
+<td> <input id="btn"type="button" name="6" value="6"ng-click="onkey('6')"><br></td>
+<td> <input id="btn"type="button" name="*" value="*"ng-click="onkey('*')"><br></td>
 <td> <input id="btn"type="button" name="1/X" value="1/X"ng-click="poo()"><br></td>
 </tr>
 
 
 
 <tr>
-<td> <input id="btn"type="button" name="1" value="1"ng-click="lol('1')"><br></td>
-<td> <input id="btn"type="button" name="2" value="2"ng-click="lol('2')"><br></td>
-<td> <input id="btn"type="button" name="3" value="3"ng-click="lol('3')"><br></td>
-<td> <input id="btn"type="button" name="-" value="-"ng-click="lol('-')"><br></td>
+<td> <input id="btn"type="button" name="1" value="1"ng-click="onkey('1')"><br></td>
+<td> <input id="btn"type="button" name="2" value="2"ng-click="onkey('2')"><br></td>
+<td> <input id="btn"type="button" name="3" value="3"ng-click="onkey('3')"><br></td>
+<td> <input id="btn"type="button" name="-" value="-"ng-click="onkey('-')"><br></td>
 <td rowspan=2> <input id="btn"type="button" style="height:80px" name="=" value="="ng-click="evaluate()"><br></td>
 </tr>
 
 
 
 <tr>
-<td colspan=2> <input id="btn"type="button" name="0" value="0"ng-click="lol('0')"><br></td>
-<td> <input id="btn"type="button" name="." value="."ng-click="lol('.')"><br></td>
-<td> <input id="btn"type="button" name="+" value="+"ng-click="lol('+')"><br></td>
+<td colspan=2> <input id="btn"type="button" name="0" value="0"ng-click="onkey('0')"><br></td>
+<td> <input id="btn"type="button" name="." value="."ng-click="onkey('.')"><br></td>
+<td> <input id="btn"type="button" name="+" value="+"ng-click="onkey('+')"><br></td>
 </tr>
 
 
