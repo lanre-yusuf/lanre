@@ -1,0 +1,28 @@
+#calcu{
+background-image:url(backgroundimage.jpg);
+background-color:#214ad2;
+}
+
+#calc{
+
+margin-bottom: 10;
+width:200px;
+height:100px;
+}
+
+#btn{
+hovercolor: red;
+background-color: white;
+width:105%;
+height:40px;
+font-size:10px;
+border-radius:7px;
+position:relative;
+transform:translatey(1px);
+opacity: 10;
+}
+
+ 
+#btn:hover{
+	color:aqua;
+}
